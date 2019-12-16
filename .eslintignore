@@ -1,0 +1,6 @@
+/configs/
+/dist/
+/node_modules/
+/platforms/
+/plugins/
+/*.js

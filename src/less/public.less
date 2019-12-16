@@ -1,0 +1,94 @@
+/***全局变量定义*/
+@navigation_height:88px;
+@themecolor:#FFD048;//主题颜色
+@themepadding:40px;//全局左右间距
+@boxbodycolor:#F0F0F0;//全局默认背景色
+
+/*****容器背景颜色*****/
+@boxbg_orange:#FF8738;
+@boxbg_purple:#7A4CFF;
+@boxbg_blue:#3E8CFC;
+
+/*****字体大小*****/
+@fs20:20px;
+@fs24:24px;
+
+/*****字体颜色*****/
+@fs-white:#FFFFFF;
+@fs-Blue:#409EFF;
+@fs-success:#67c23a;
+@fs-warning:#e6a23c;
+@fs-danger:#f56c6c;
+@fs-info:#909399;
+
+/*盒子颜色*/
+@border-color:#FF8738;
+/*inputBg*/
+@input-bg:#F1F1F5;
+
+/*****遮罩*****/
+.shade{
+  width: 750wx;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  background-color:rgba(0,0,0,0.2);
+}
+/*****全局页面滑动*****/
+.conscroller{
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color:@boxbodycolor;
+}
+
+/*****超出部分隐藏*****/
+.whitespace1{
+  lines:1;
+  text-overflow:ellipsis;
+}
+.whitespace2{
+  lines:2;
+  text-overflow:ellipsis;
+}
+.whitespace3{
+  lines:3;
+  text-overflow:ellipsis;
+}
+.whitespace4{
+  lines:4;
+  text-overflow:ellipsis;
+}
+.whitespace5{
+  lines:5;
+  text-overflow:ellipsis;
+}
+.whitespace6{
+  lines:6;
+  text-overflow:ellipsis;
+}
+.whitespace7{
+  lines:7;
+  text-overflow:ellipsis;
+}
+
+/** 容器旋转 **/
+.rotate180{
+  transform:rotate(180deg);
+}
+
+/*带阴影的盒子*/
+.shadeBox{
+  padding-bottom: 2wx;
+  background-color: @border-color;
+  border-radius: 80wx;
+  overflow: hidden;
+}
+.s_box{
+  background-color: white;
+  min-height: 46wx;
+  min-width: 46wx;
+  border-radius: 80wx;
+}

@@ -1,0 +1,143 @@
+@import url('../../../../less/public.less');
+/***顶部主图部分***/
+.mincontainer{
+  position: relative;
+  background-color:#fff;
+  flex-direction:column;
+}
+.mastergraph{
+  height:420px;
+  width:750px;
+  background-color:#ffd048;
+}
+.minborder{
+  position: absolute;
+  left:0;
+  right:0;
+  bottom:0px;
+  height:60px;
+  border-top-left-radius:60px;
+  border-top-right-radius:60px;
+  background-color:#fff;
+  z-index:10;
+}
+
+/*** 头部标题部分 ***/
+@rigthtop_height:80px;
+@rowspeed_height:60px;
+.container_top{
+  padding:0 40px;
+  flex-direction: row;
+  align-items: center;
+  min-height:@rigthtop_height;
+  justify-content: space-between;
+}
+.toptitle{
+  font-size:36px;
+  color:#303032;
+  font-weight:600;
+}
+.rigthtop{
+  position: relative;
+  height:@rigthtop_height;
+  justify-content:center;
+}
+.rowspeed{
+  background-color:#FFE2BD;
+  height:@rowspeed_height;
+  border-radius:@rowspeed_height;
+  padding-left:@rigthtop_height + 20px;
+  padding-right:30px;
+  margin-left:3px;
+}
+.rowspeedtext{
+  line-height:@rowspeed_height;
+  color:#FF8738;
+  font-size:36px;
+}
+.rowstar{
+  position: absolute;
+  top:0px;
+  left:0px;
+  width:@rigthtop_height;
+  height:@rigthtop_height;
+  background-color:#FF8738;
+  border-radius:@rigthtop_height;
+  justify-content:center;
+  align-items: center;
+}
+.rowstarimage{
+  width:@rowspeed_height;
+  height:@rowspeed_height;
+}
+/*** 数据模块 ***/
+.container_modular{
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left:40px;
+  margin:30px 0;
+}
+.itemmodular{
+  width:325px;
+  margin:0 20px 20px 0;
+  background-color: #F1F1F5;
+  border-radius:16px;
+  padding:20px 0;
+  align-items: center;
+  justify-content: center;
+}
+.itemimage{
+  width:160px;
+  height:160px;
+}
+.maintitle{
+  padding-top:30px;
+}
+.maintitletext{
+  font-size:32px;
+  color:#303032;
+  font-weight:600;
+}
+.subhead{
+  padding:10px 0 20px 0;
+}
+.subheadtext{
+  font-size:24px;
+  color:#98989B;
+  font-weight:400;
+}
+.modularbtn{
+  width:200px;
+  height:60px;
+  background-color:#FFD048;
+  border-radius:30px;
+  margin-top:25px;
+}
+.modularbtntext{
+  color:#303032;
+  font-size:24px;
+  font-weight:500;
+  text-align: center;
+  line-height:60px;
+}
+
+/*** 底部按钮 ***/
+.braceheight{
+  height:160px;
+}
+.container_btns{
+  position: fixed;
+  left:40px;
+  right:40px;
+  bottom:30px;
+  height:100px;
+  border-radius:60px;
+  background-color:#FFD048;
+}
+.btnstext{
+  color:#303032;
+  font-size:34px;
+  line-height:100px;
+  text-align: center;
+  font-weight:600;
+}

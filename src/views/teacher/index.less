@@ -1,0 +1,132 @@
+@import url('../../less/public.less');
+@borderradius:16px;
+/***------头部用户模块------***/
+.containerinfo{
+  background-color:#fff;
+  margin:40px @themepadding 20px @themepadding;
+  border-radius:@borderradius;
+  padding:0 30px;
+}
+.rows{
+  flex-direction:row;
+  height:60px;
+  line-height:60px;
+  margin:30px 0;
+}
+.topinfo1{
+  background-color: #F1F1F5;
+  border-radius:36px;
+  flex-direction:row;
+}
+.organization_portrait{
+  width:40px;
+  height:40px;
+  background-color:red;
+  border-radius:40px;
+  margin:10px;
+}
+.organizationname{
+  color:#303032;
+  font-size:24px;
+  line-height:60px;
+}
+.organization_rightarrow{
+  padding:18px 26px 0 10px;
+}
+.imageicon{
+  width:24px;
+  height:24px;
+  transform:rotate(180deg);
+}
+.rowueseinfo{
+  padding:20px 12px;
+  flex-direction:row;
+  align-items:center;
+  border-top-width:1px;
+  border-top-style:solid;
+  border-top-color:#ddd;
+}
+.uese_portrait{
+  @width:120px;
+  width:@width;
+  height:@width;
+  background-color: #7A4CFF;
+  border-radius:@width;
+}
+.ueseinfo{
+  flex:1;
+  margin:0 20px;
+}
+.userrole{
+  flex-direction:row;
+  margin-bottom:15px;
+}
+.username{
+  font-size:36px;
+  color:#303032;
+}
+.rowrolename{
+  height:36px;
+  margin:0 14px;
+  padding:0 10px;
+  background-color: #FF8738;
+  border-radius:4px;
+}
+.rolename{
+  font-size:24px;
+  color:#fff;
+  line-height:36px;
+}
+.userrolephone{
+  color:#656568;
+  font-size:28px;
+}
+.userinfo_update_text{
+  color:#FF8738;
+  font-size:24px;
+}
+/***------中间模块------***/
+.containermodule{
+  margin:0 @themepadding 30px @themepadding;
+}
+.containermodule_senior{
+  margin:0 @themepadding - 10 30px @themepadding - 10;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.senioritems{
+  width:325px;
+  margin:10px;
+}
+/***------消息列表------***/
+.containermessage{
+  margin:0 @themepadding;
+  padding-bottom:1px;
+}
+.messagetop{
+  position: relative;
+  flex-direction:row;
+  margin-bottom:20px;
+}
+.messagetoptext1{
+  color:#303032;
+  font-size:44px;
+  padding-right:10px;
+}
+.messagetoptext2{
+  color:#fff;
+  font-size:28px;
+  background-color:#FF5852;
+  height:44px;
+  line-height:44px;
+  padding:0 16px;
+  border-radius:44px;
+}
+.messagetoptext3{
+  position: absolute;
+  top:0;
+  right:0;
+  color:#656568;
+  font-size:24px;
+  line-height:44px;
+}
